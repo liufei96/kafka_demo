@@ -116,6 +116,7 @@ Starting zookeeper ... STARTED
 > log.dirs=/opt/kafka_2.13-2.5.0/logs    设置存放消息日志文件的地址
 >
 > zookeeper.connect=localhost:2181     kafka所需zookeeper集群地址。
+> 
 > -daemon 是在后台启动
 
 - 验证结果
