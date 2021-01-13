@@ -105,8 +105,8 @@ Starting zookeeper ... STARTED
 
 - 下载解压成功后，开始启动
 
-  启动命令：bin/kafka-server.start.sh config/server.properties
-
+  启动命令：bin/kafka-server.start.sh -daemon config/server.properties
+  
   **server.properties** 需要关注以下几个配置
 
 > broker.id=0  表示broker的编号，如果集群中有多个broker，则每个broker的编号需要不同
@@ -116,6 +116,7 @@ Starting zookeeper ... STARTED
 > log.dirs=/opt/kafka_2.13-2.5.0/logs    设置存放消息日志文件的地址
 >
 > zookeeper.connect=localhost:2181     kafka所需zookeeper集群地址。
+> -daemon 是在后台启动
 
 - 验证结果
 
