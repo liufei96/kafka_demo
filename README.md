@@ -105,7 +105,7 @@ Starting zookeeper ... STARTED
 
 - 下载解压成功后，开始启动
 
-  启动命令：bin/kafka-server.start.sh -daemon config/server.properties
+  启动命令：bin/kafka-server-start.sh -daemon config/server.properties
   
   **server.properties** 需要关注以下几个配置
 
